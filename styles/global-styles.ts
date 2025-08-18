@@ -1,5 +1,7 @@
 import { Colors } from "@/constants/Colors";
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
+
+const { width } = Dimensions.get('window')
 
 export const globalStyles = StyleSheet.create({
     background: {
@@ -46,7 +48,7 @@ export const globalStyles = StyleSheet.create({
     buttonText: {
         textAlign: 'center',
         padding: 10,
-        fontSize: 30,
+        fontSize: width * 0.06,
         color: Colors.textPrimary,
         fontFamily: 'SpaceMono',
         fontWeight: 300
