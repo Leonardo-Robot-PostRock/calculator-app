@@ -48,7 +48,7 @@ export const globalStyles = StyleSheet.create({
     buttonText: {
         textAlign: 'center',
         padding: 10,
-        fontSize: width * 0.06,
+        fontSize: Math.max(width * 0.06),
         color: Colors.textPrimary,
         fontFamily: 'SpaceMono',
         fontWeight: 300

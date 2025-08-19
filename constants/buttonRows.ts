@@ -4,8 +4,8 @@ import { Colors } from "./Colors";
 export const buttonRows: ButtonConfig[][] = [
     [
         { label: 'C', color: Colors.lightGray, blackText: true },
-        { label: '+/-', color: Colors.lightGray, blackText: true },
         { label: 'del', color: Colors.lightGray, blackText: true },
+        { label: '()', color: Colors.lightGray, blackText: true },
         { label: '÷', color: Colors.orange },
     ],
     [
@@ -27,7 +27,8 @@ export const buttonRows: ButtonConfig[][] = [
         { label: '+', color: Colors.orange },
     ],
     [
-        { label: '0', color: Colors.lightGray, blackText: true, doubleSize: true },
+        { label: '+/-', color: Colors.lightGray, blackText: true },
+        { label: '0', color: Colors.lightGray, blackText: true },
         { label: '.', color: Colors.lightGray, blackText: true },
         { label: '=', color: Colors.lightGray, blackText: true },
     ],
