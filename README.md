@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+Calculadora Expo 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este es un proyecto de calculadora desarrollado con Expo
+ usando create-expo-app
+. La aplicación permite realizar operaciones matemáticas básicas como suma, resta, multiplicación y división, así como operaciones con decimales.
 
-## Get started
+Comenzar
 
-1. Install dependencies
+Instalar dependencias
 
-   ```bash
-   npm install
-   ```
+npm install
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+Iniciar la app
 
-In the output, you'll find options to open the app in a
+npx expo start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Esto abrirá un panel donde puedes elegir ejecutar la app en:
 
-## Get a fresh project
+Desarrollo local con build
 
-When you're ready, run:
+Emulador Android
 
-```bash
-npm run reset-project
-```
+Simulador iOS
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo Go
+, un entorno limitado para probar la app rápidamente
 
-## Learn more
+Puedes empezar a desarrollar editando los archivos dentro del directorio app. Este proyecto usa file-based routing
+.
 
-To learn more about developing your project with Expo, look at the following resources:
+Funcionalidades
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Ingreso de números y operaciones básicas
 
-## Join the community
+Soporte para números decimales
 
-Join our community of developers creating universal apps.
+Botón de borrar y reinicio de la operación
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Interfaz simple y amigable para móviles (Android e iOS)
